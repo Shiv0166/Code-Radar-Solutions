@@ -4,11 +4,9 @@ int main() {
     scanf("%c", &x);
     if(x == "R") {
         printf("Stop");
-    }
-    else if(x == "G") {
+    } else if(x == "G") {
         printf("Go");
-    }
-    else {
+    } else {
         printf("Slow Down");
     }
     return 0;
