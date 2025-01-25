@@ -7,7 +7,7 @@ int main() {
     } else if(x == 'G') {
         printf("Go");
     } else {
-        printf("Slow Down or Invalid input");
+        printf("Slow Down");
     }
     return 0;
 }
