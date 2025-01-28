@@ -2,11 +2,11 @@
 int main() {
     int a;
     scanf("%d", &a);
-    if(a>0) {
-        printf("Above Frezzing");
+    if(a<=0) {
+        printf("Frezzing");
     }
     else {
-        printf("Frezzing");
+        printf("Above Frezzing");
     }
     return 0;
 }
