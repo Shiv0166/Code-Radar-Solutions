@@ -5,8 +5,11 @@ int main(){
     if(ch=='a' || ch=='e' || ch=='i' || ch=='o', ch=='u'){
         printf("Vowel");
     } else if(ch>='a' && ch<='z'){
-        pritf("Consonanat");
+        pritf("Consonant");
+    } else if(ch>='0' && ch<='9'){
+        printf("Digit");
     } else {
-        printf("Special character");
+        prntf("Special Character");
     }
+    
 }
