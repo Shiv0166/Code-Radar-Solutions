@@ -8,9 +8,7 @@ int prime(a){
         if(a%i==0){
             return 0;
         }
-        else{
-            return 1;
-        }
+    return 1;
     }
 }
 int main(){
