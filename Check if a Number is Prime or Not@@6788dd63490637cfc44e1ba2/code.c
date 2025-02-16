@@ -16,5 +16,5 @@ int prime(a){
 int main(){
     int a;
     scanf("%d",&a);
-    prime(1)?{printf("Prime")}:printf("Not Prime");
+    prime(a)?{printf("Prime")}:printf("Not Prime");
 }
