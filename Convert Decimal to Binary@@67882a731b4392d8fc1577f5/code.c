@@ -1,6 +1,6 @@
 #include<stdio.h>
 void decimal(int a){
-    if (a > 0) decimal(a/2);
+    if (a > 1) decimal(a/2);
     printf("%d", a%2);
 }
 
