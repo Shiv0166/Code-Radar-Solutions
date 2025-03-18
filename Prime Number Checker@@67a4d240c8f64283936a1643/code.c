@@ -9,6 +9,7 @@ int main(){
     else{
         printf("%d",0);
     }
+    return 0;
 }
 int isprime(int n){
     if(n<=1){
