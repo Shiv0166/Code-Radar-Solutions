@@ -1,7 +1,7 @@
 #include<stdio.h>
 int isprime(int num);
 int main(){
-    scanf("%d",&num);
+    scanf("%d", &num);
     isprime(num);
     return 0;
 }
