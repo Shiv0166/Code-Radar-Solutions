@@ -9,7 +9,7 @@ int main(){
     max=arr[0];
     min=arr[0];
     for(int i=1; i<n; i++){
-        if(min>max[i]){
+        if(min>arr[i]){
             min=arr[i];
         }
         if(max<arr[i]){
