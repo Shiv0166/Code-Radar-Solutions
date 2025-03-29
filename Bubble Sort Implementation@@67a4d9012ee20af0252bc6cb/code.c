@@ -1,6 +1,6 @@
 #include<stdio.h>  // 1. Includes the standard input/output library for using printf and scanf functions.
 
-void main() {       // 2. The main function where the program execution starts. (Note: Use 'int main()' in standard C.)
+int main() {       // 2. The main function where the program execution starts. (Note: Use 'int main()' in standard C.)
 
     int i, j, n, a[50], temp;  
     // 3. Declares variables:
