@@ -14,5 +14,6 @@ int main(){
             od = od+1;
         }
     }
-    printf("%d ", eve, od);
+    printf("%d %d ", eve, od);
+    return 0;
 }
