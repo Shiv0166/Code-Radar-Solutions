@@ -1,11 +1,4 @@
 #include<stdio.h>
-int isprime(int num);
-int main(){
-    int num;
-    scanf("%d", &num);
-    isprime(num);
-    return 0;
-}
 int isprime(int num){
     if(num<2){
         return 0;
@@ -15,4 +8,10 @@ int isprime(int num){
         return 0;
     }
     return 1;
+}
+int main(){
+    int num;
+    scanf("%d", &num);
+    isprime(num);
+    return 0;
 }
