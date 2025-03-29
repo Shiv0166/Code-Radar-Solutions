@@ -46,5 +46,4 @@ void main() {       // 2. The main function where the program execution starts. 
         printf("%d\t", a[i]);  
     }
 
-    getch();  
 }
