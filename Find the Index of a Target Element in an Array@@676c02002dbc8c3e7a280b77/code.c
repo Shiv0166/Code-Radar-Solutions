@@ -9,7 +9,7 @@ int main(){
     }
     int target;
     scanf("%d",&target);
-    findindex(arr[], n, target);
+    print("%d",findindex(arr[], n, target));
     return 0;
 }
 int findindex(int arr[], int n, int target){
