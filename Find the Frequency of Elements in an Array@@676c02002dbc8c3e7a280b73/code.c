@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n, freq = 0;
+    int n;
     scanf("%d",&n);
     int arr[n],freq[n];
     scanf("%d",&arr[n]);
