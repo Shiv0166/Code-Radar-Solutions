@@ -30,7 +30,7 @@ int main() {
     // output
     for (int i = 0; i < n; i++) {
         if (freq[i] != visited) {
-            printf("%d = %d\n", arr[i], freq[i]);
+            printf("%d %d\n", arr[i], freq[i]);
         }
     }
 
